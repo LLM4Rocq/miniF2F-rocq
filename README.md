@@ -27,9 +27,9 @@ the formulation of the theorems may not always be ideal for efficient proof deve
 The goal of the audit is to refine the theorem statements and ensure that their formulations are as proof-friendly as possible.
 
 Progress of the audit so far:
-┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                                                                    │
-└────────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────┐
+│                                                  │
+└──────────────────────────────────────────────────┘
 
 We extend our heartfelt thanks to all contributors who helped audit and refine the theorem statements.
 Their expertise and insights have been invaluable to this project.
