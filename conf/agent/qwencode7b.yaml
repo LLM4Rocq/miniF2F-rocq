@@ -1,0 +1,2 @@
+model_id: ollama/qwen2.5-coder:7b
+temperature: 1.0

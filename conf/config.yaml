@@ -1,0 +1,43 @@
+workspace: ""
+theorem: null
+supervise: false
+log_dir: "logs"
+weave: false
+
+petanque:
+  address: 127.0.0.1
+  port: 8765
+  timeout: 10
+  run_opts: null
+
+search:
+  max_steps: 10
+
+hydra:
+  help:
+    app_name: translate
+
+    template: |
+      ${hydra.help.header}
+      There are two possible modes:
+      - Use the option `theorem=my_theorem` to translate one theorem.
+      - With no theorem specified, all theorems are translated.
+
+      To enable supervision of the model, use the option `supervise=true`.
+
+      Alternatively you can use your own config file with the option `--config-name my_config.yaml`.
+      Config files should be in the `conf` directory.
+
+      == Config ==
+      Override anything in the config (foo.bar=value)
+
+      $CONFIG
+
+      ${hydra.help.footer}
+
+# @package _global_
+defaults:
+  - _self_
+  - agent: qwencode7b
+  - override hydra/job_logging: none
+  - override hydra/hydra_logging: none

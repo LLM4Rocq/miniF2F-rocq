@@ -1,0 +1,2 @@
+model_id: ollama/codellama:7b-instruct
+temperature: 1.0
