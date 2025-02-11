@@ -107,7 +107,7 @@ You can use your own configuration file by putting it in the folder [conf](./con
 $ python translate.py --config-name my_config
 ```
 
-## Audit process
+## Audit
 
 To ensure that the Rocq version of miniF2F becomes a reliable benchmark for automated proof evaluation,
 an audit of the translated theorems is essential.
