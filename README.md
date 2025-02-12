@@ -26,9 +26,9 @@ MiniF2F consists of mathematical exercises taken from olympiads (AMC, AIME, IMO)
 |:--------:|:----:|:-----:|
 | Theorems |  244 |  244  |
 
-MiniF2F-rocq is created as a shared and useful resource for the machine learning community working on proof automation in Rocq. Therefore, there is no obligation regarding the use of miniF2F-rocq or results build upon it.
+MiniF2F-rocq is designed as a shared and valuable resource for the machine learning community working on proof automation in Rocq. There are no restrictions on its use or on results build upon it.
 
-However, miniF2F-rocq benefits heavily from all contributions, such as suggesting better statements or additional proofs, or fixing bugs. So if you have new findings useful for the community, please consider contributing them back to enhance the benchmark.
+However, MiniF2F-rocq greatly benefits from contributions, whether by improving existing statements, adding new proofs, or fixing bugs. If you discover insights that could be useful to the community, please consider contributing them back to help refine and expand the benchmark.
 
 ## Example problem statement (mathd_algebra_478)
 
