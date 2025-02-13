@@ -1,0 +1,26 @@
+Theorems already audited:
+mathd_numbertheory_48
+mathd_algebra_170
+mathd_algebra_320
+mathd_algebra_493
+mathd_numbertheory_33
+amc12b_2021_p13
+algebra_2rootsintpoly_am10tap11eqasqpam110
+mathd_numbertheory_64
+imo_1988_p6
+imo_1977_p5
+aime_1995_p7
+amc12b_2003_p17
+mathd_algebra_132
+amc12a_2020_p25
+imo_1959_p1
+mathd_numbertheory_237
+aime_1984_p5
+mathd_numbertheory_269
+mathd_numbertheory_342
+mathd_numbertheory_43
+aime_1988_p8
+mathd_numbertheory_430
+mathd_algebra_304
+mathd_numbertheory_101
+mathd_algebra_182

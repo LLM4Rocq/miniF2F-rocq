@@ -62,8 +62,8 @@ The goal of the audit is to refine the theorem statements and ensure that their 
 
 Progress of the audit so far:
 
-`|··················································| % 0`
+`|██················································| % 5`
 
 We extend our heartfelt thanks to all contributors who helped audit and refine the theorem statements.
 Their expertise and insights have been invaluable to this project.
-Special thanks to [Contributor Names] for their dedicated efforts.
+Special thanks to Hugo Herbelin for his dedicated efforts.
