@@ -4,10 +4,10 @@ Import ListNotations.
 
 
 
-Theorem mathd_numbertheory_303 (S : list nat)
-  (H : forall n, In n S <-> 2 <= n
+Theorem mathd_numbertheory_303 (l : list nat)
+  (H : forall n, In n l <-> 2 <= n
                          /\ (171 mod n = 80 mod n)
                          /\ (468 mod n = 13 mod n)):
-  fold_left plus S 0 = 111.
-
+  NoDup l ->
+  list_sum l = 111.
 Proof.

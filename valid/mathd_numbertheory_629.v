@@ -1,10 +1,10 @@
 Require Import Arith.
 Require Import Nat.
 
+Definition Least (P:nat->Prop) n :=
+ P n /\ forall m, P m -> n <= m.
+
 Theorem mathd_numbertheory_629:
-  (exists t : nat,
-    t > 0 /\ (Nat.lcm 12 t)^3 = (12 * t)^2) /\
-  (forall x : nat,
-    x > 0 /\ (Nat.lcm 12 x)^3 = (12 * x)^2 -> x >= 18).
+  Least (fun t => t > 0 /\ (Nat.lcm 12 t)^3 = (12 * t)^2) 18.
 Proof.
 Admitted.
