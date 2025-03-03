@@ -5,18 +5,14 @@ using interactive theorem provers (ITPs) such as Isabelle, Lean, and Rocq.
 However, fundamental differences between these proof systems have led to the development of distinct datasets,
 making it challenging to compare techniques designed for different proof assistants.
 
-LLMs are particularly well-suited for translating between programming languages that share extensive resources.
-This work investigates whether state-of-the-art LLMs can be leveraged to automatically translate a dataset of formal theorems from one proof assistant to another.
-
-We focus on [miniF2F](https://github.com/facebookresearch/miniF2F),
+[miniF2F](https://github.com/facebookresearch/miniF2F) is 
 a dataset of high-school-level mathematical problems that has already been formalized in Lean, Isabelle/HOL, and MetaMath.
 It is widely used as a benchmark for evaluating machine learning-based automated proof techniques.
 
-The goal of the project is to provide a shared benchmark to evaluate and directly compare automated theorem proving systems based on the formal systems targeted, initially Lean, Isabelle, and Metamath (targeting also Hol Light).
-
-Since miniF2F has not yet been formalized in Rocq,
-this project also aims to provide a reliable and correct formalization of the dataset in Rocq,
-expanding its utility as a benchmark for future research.
+This project is a formalization of the MiniF2F dataset in Rocq:
+- automatically translated using the latest LLMs (at the time of translation),
+- checked against the Rocq prover (all theorems are valid Rocq code),
+- currently being audited by Rocq experts.
 
 ## Overview
 
@@ -72,3 +68,18 @@ Hugo Herbelin,
 Pierre Letouzey and
 Julien Narboux
 for their dedicated efforts.
+
+
+## Automatic translation
+
+We automatically generated the Rocq theorems using three sources: 
+- a natural language description, 
+- the Lean formalization, and 
+- the Isabelle formalization. 
+
+We conducted our experiment in 3 stages of increasing complexity, from basic one-shot prompting to multi-turn conversations that incorporate feedback from unsuccessful attempts. 
+At each stage, we perform multiple rounds of translation using increasingly advanced models: GPT-4o mini, Claude 3.5 Sonnet, o1 mini, and o1. 
+We successfully translated 478 out of 488 theorems, and manually translated the last theorems.
+
+The agent used for the translation task is in the `translator` directory.
+More details can be found in [this abstract](./minif2f2rocq.pdf)
