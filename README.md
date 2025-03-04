@@ -5,7 +5,7 @@ using interactive theorem provers (ITPs) such as Isabelle, Lean, and Rocq.
 However, fundamental differences between these proof systems have led to the development of distinct datasets,
 making it challenging to compare techniques designed for different proof assistants.
 
-[miniF2F](https://github.com/facebookresearch/miniF2F) is 
+[miniF2F](https://github.com/facebookresearch/miniF2F) is
 a dataset of high-school-level mathematical problems that has already been formalized in Lean, Isabelle/HOL, and MetaMath.
 It is widely used as a benchmark for evaluating machine learning-based automated proof techniques.
 
@@ -72,14 +72,14 @@ for their dedicated efforts.
 
 ## Automatic translation
 
-We automatically generated the Rocq theorems using three sources: 
-- a natural language description, 
-- the Lean formalization, and 
-- the Isabelle formalization. 
+We automatically generated the Rocq theorems using three sources:
+- a natural language description,
+- the Lean formalization, and
+- the Isabelle formalization.
 
-We conducted our experiment in 3 stages of increasing complexity, from basic one-shot prompting to multi-turn conversations that incorporate feedback from unsuccessful attempts. 
-At each stage, we perform multiple rounds of translation using increasingly advanced models: GPT-4o mini, Claude 3.5 Sonnet, o1 mini, and o1. 
+We conducted our experiment in 3 stages of increasing complexity, from basic one-shot prompting to multi-turn conversations that incorporate feedback from unsuccessful attempts.
+At each stage, we perform multiple rounds of translation using increasingly advanced models: GPT-4o mini, Claude 3.5 Sonnet, o1 mini, and o1.
 We successfully translated 478 out of 488 theorems, and manually translated the last theorems.
 
-The agent used for the translation task is in the `translator` directory.
+The agent used for the translation task is in the [translator](./translator/) directory.
 More details can be found in [this abstract](./minif2f2rocq.pdf)
