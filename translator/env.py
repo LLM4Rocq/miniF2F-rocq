@@ -31,7 +31,7 @@ class TranslateEnv(Env):
 
         with open(os.path.join(workspace, file), "w") as f:
             f.write("")
-        self.state = self.pet.get_state(self.path, (0, 0))
+        self.state = self.pet.get_root_state(self.path)
 
         self.finished = False
 
