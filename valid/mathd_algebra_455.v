@@ -1,8 +1,7 @@
-Require Import Reals.
-Open Scope R_scope.
+Require Import Arith.
 
 Theorem mathd_algebra_455 :
-  forall x : R,
+  forall x : nat,
   2 * (2 * (2 * (2 * x))) = 48 ->
   x = 3.
 Proof.
