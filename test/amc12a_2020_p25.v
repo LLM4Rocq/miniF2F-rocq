@@ -1,18 +1,15 @@
 Require Import Reals.
-Require Import Coquelicot.Coquelicot.
-Require Import QArith.
-Require Import ZArith.
 Require Import List.
 
 Open Scope R_scope.
 
 Theorem amc12a_2020_p25 :
-  forall (a : Q) (S : list R),
-    (forall x : R, In x S <-> 
-      (IZR (Int_part x) * (x - IZR (Int_part x)) = Q2R a * Rpower x 2))
+  forall (p q : nat), Nat.gcd p q = 1%nat ->
+  forall (S : list R),
+    (forall x : R, In x S <->
+      (IZR (Int_part x) * (x - IZR (Int_part x)) = INR p / INR q * Rpower x 2))
     -> NoDup S
     -> fold_left Rplus S 0 = 420
-    -> (Z.pos (Qden a) + Qnum a = 929)%Z.
-
-
+    -> (p + q = 929)%nat.
 Proof.
+Admitted.
