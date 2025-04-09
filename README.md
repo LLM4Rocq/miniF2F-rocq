@@ -26,6 +26,18 @@ MiniF2F-rocq is designed as a shared and valuable resource for the machine learn
 
 However, MiniF2F-rocq greatly benefits from contributions, whether by improving existing statements, adding new proofs, or fixing bugs. If you discover insights that could be useful to the community, please consider contributing them back to help refine and expand the benchmark.
 
+## Download
+
+To use the dataset, we recommend downloading it from HuggingFace 🤗 where the files are broken down into the Rocq statement and a header (the imports and auxiliary definitions), and where corresponding informal statement and proof are available.
+
+You can see the dataset at https://huggingface.co/datasets/LLM4Rocq/miniF2F-rocq and it can be downloaded as follow:
+
+```python
+import datasets
+
+miniF2F = datasets.load_dataset("LLM4Rocq/miniF2F-rocq")
+```
+
 ## Example problem statement (mathd_algebra_478)
 
 ### Informal description
