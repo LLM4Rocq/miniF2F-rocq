@@ -70,12 +70,13 @@ The goal of the audit is to refine the theorem statements and ensure that their 
 
 Progress of the audit so far:
 
-`|████████████······································| % 25`
+`|███████████████···································| % 30`
 
 We extend our heartfelt thanks to all contributors who helped audit and refine the theorem statements.
 Their expertise and insights have been invaluable to this project.
 Special thanks to
 Pierre Boutillier,
+Cyril Cohen,
 Hugo Férée,
 Hugo Herbelin,
 Pierre Letouzey and

@@ -5,11 +5,10 @@ Require Import Arith.
 Require Import Znumtheory.
 Require Import Lia.
 
-Theorem amc12_2000_p6 :
-  forall (p q : positive),
-    prime (Z.pos p) /\ prime (Z.pos q) ->
-    (4 <= Pos.to_nat p <= 18)%nat ->
-    (4 <= Pos.to_nat q <= 18)%nat ->
-    Z.pos p * Z.pos q - (Z.pos p + Z.pos q) <> 194.
-
+Theorem amc12_2000_p6 (p q : Z) :
+    0 < p -> 0 < q ->
+    prime p -> prime q ->
+    (4 <= p <= 18)%Z ->
+    (4 <= q <= 18)%Z ->
+    p * q - (p + q) <> 194.
 Proof.
