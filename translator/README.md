@@ -2,20 +2,11 @@
 
 ## Install
 
-To run the agent, you need to install a custom version of [coq-lsp](https://github.com/ejgallego/coq-lsp). The custom version is available at https://github.com/LLM4Rocq/coq-lsp/tree/MorePetanqueCommands. Because this is a custom version of coq-lsp, a specific version of [coq](https://github.com/coq/coq) is needed. The complete installation using the [OPAM package manager](https://opam.ocaml.org/) (for Unix-like systems) can be done as follow:
+To run the agent, you need to install a specific branch of [coq-lsp](https://github.com/ejgallego/coq-lsp). The installation using the [OPAM package manager](https://opam.ocaml.org/) (for Unix-like systems) can be done as follow:
 
 ```bash
-$ opam switch create custom_coq_lsp 5.1.0   # Optional: create a new switch
-$ opam pin add rocq-runtime https://github.com/coq/coq.git#7d4ec9ecfef45f6536d144b3d7919e4129d73274
-$ opam pin add rocq-core https://github.com/coq/coq.git#7d4ec9ecfef45f6536d144b3d7919e4129d73274
-$ opam pin add rocq-stdlib https://github.com/coq/stdlib.git#155be26dc10a8b6ddb3cfbdd4c144c077c583b5f
-$ opam pin add rocq https://github.com/coq/coq.git#7d4ec9ecfef45f6536d144b3d7919e4129d73274
-$ opam pin add coq-core https://github.com/coq/coq.git#7d4ec9ecfef45f6536d144b3d7919e4129d73274
-$ opam pin add coq-stdlib https://github.com/coq/stdlib.git#155be26dc10a8b6ddb3cfbdd4c144c077c583b5f
-$ opam pin add coqide-server https://github.com/coq/coq.git#7d4ec9ecfef45f6536d144b3d7919e4129d73274
-$ opam pin add coq https://github.com/coq/coq.git#7d4ec9ecfef45f6536d144b3d7919e4129d73274
-$ opam install lwt logs   # Needed for petanque to work
-$ opam pin coq-lsp https://github.com/LLM4Rocq/coq-lsp.git#MorePetanqueCommands
+$ opam install lwt logs
+$ opam pin add coq-lsp https://github.com/ejgallego/coq-lsp.git#v8.20
 ```
 
 Additionally, the python package [nlir](https://github.com/LLM4Rocq/nlir) is required. It can be installed as follow:
@@ -28,7 +19,7 @@ However, a different version of [pytanque](https://github.com/LLM4Rocq/pytanque)
 
 ```bash
 $ pip uninstall pytanque
-$ pip install git+https://github.com/LLM4Rocq/pytanque.git@MoreCommands
+$ pip install git+https://github.com/LLM4Rocq/pytanque.git@PetanqueV2
 ```
 
 ## Getting started
