@@ -1,0 +1,752 @@
+{
+  "algebra_apbon2pownleqapownpbpowon2": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "amc12a_2009_p7": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "amc12a_2010_p10": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12a_2020_p21": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "imo_1961_p1": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "imo_1965_p1": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "imo_1982_p1": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "imo_1987_p6": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "imo_2019_p1": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_algebra_125": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_algebra_156": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_algebra_158": {
+    "status": "reformulation",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_algebra_33": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "mathd_algebra_392": {
+    "status": "reformulation",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_algebra_455": {
+    "status": "reformulation",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_algebra_509": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_55": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_algebra_598": {
+    "status": "no changes",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_numbertheory_109": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_numbertheory_221": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_numbertheory_328": {
+    "status": "no changes",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_numbertheory_435": {
+    "status": "reformulation",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_numbertheory_5": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "mathd_numbertheory_690": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_85": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "aimeI_2000_p7": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "aime_1997_p11": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "algebra_2complexrootspoly_xsqp49eqxp7itxpn7i": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "algebra_amgm_sumasqdivbsqgeqsumbdiva": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "algebra_apbmpcneq0_aeq0anbeq0anceq0": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12_2000_p6": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "amc12_2001_p9": {
+    "status": "no changes",
+    "modified": true,
+    "proof": true
+  },
+  "amc12a_2016_p2": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12a_2021_p25": {
+    "status": "syntax improvement",
+    "modified": false,
+    "proof": false
+  },
+  "imo_1962_p4": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "imo_1983_p6": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "induction_divisibility_3divnto3m2n": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "induction_seq_mul2pnp1": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_171": {
+    "status": "no changes",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_algebra_275": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_327": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_452": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "mathd_algebra_536": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "mathd_algebra_73": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_169": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_247": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_numbertheory_341": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_370": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_517": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "aime_1984_p5": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "aime_1988_p8": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "aime_1995_p7": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "algebra_2rootsintpoly_am10tap11eqasqpam110": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12a_2020_p25": {
+    "status": "wrong",
+    "modified": false,
+    "proof": false
+  },
+  "amc12b_2003_p17": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12b_2021_p13": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "imo_1959_p1": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "imo_1977_p5": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "imo_1988_p6": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_132": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_170": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_182": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_304": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_320": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_493": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_101": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_237": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_269": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_33": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_342": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_43": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_430": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_48": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_64": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "aime_1990_p4": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "aime_1991_p6": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "algebra_2rootspoly_apatapbeq2asqp2ab": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "algebra_sqineq_2unitcircatblt1": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12a_2002_p12": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12a_2003_p23": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12a_2009_p25": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12a_2020_p15": {
+    "status": "no changes",
+    "modified": true,
+    "proof": false
+  },
+  "amc12a_2021_p18": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12a_2021_p22": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12b_2021_p3": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "induction_11div10tonmn1ton": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "induction_divisibility_3div2tooddnp1": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_11": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_119": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_13": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_176": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_246": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_288": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_342": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_412": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_43": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_44": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_110": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_299": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "aimeII_2020_p6": {
+    "status": "wrong",
+    "modified": true,
+    "proof": false
+  },
+  "aime_1991_p1": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "algebra_ineq_nto1onlt2m1on": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12_2000_p15": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "amc12a_2003_p1": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "amc12a_2010_p11": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12a_2019_p12": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12b_2002_p7": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12b_2003_p6": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12b_2020_p22": {
+    "status": "reformulation",
+    "modified": true,
+    "proof": false
+  },
+  "amc12b_2020_p5": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "amc12b_2021_p9": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "imo_1960_p2": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "induction_12dvd4expnp1p20": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "induction_prod1p1onk3le3m1onn": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_10": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_110": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_131": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_151": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_346": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_48": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_numbertheory_343": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_numbertheory_353": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "numbertheory_x5neqy2p4": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "aime_1999_p11": {
+    "status": "wrong",
+    "modified": true,
+    "proof": false
+  },
+  "algebra_abpbcpcageq3_sumaonsqrtapbgeq3onsqrt2": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "algebra_amgm_sum1toneqn_prod1tonleq1": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12_2000_p20": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "amc12_2001_p21": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "amc12a_2009_p9": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "amc12a_2020_p4": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "amc12a_2021_p8": {
+    "status": "no changes",
+    "modified": true,
+    "proof": true
+  },
+  "imo_1968_p5_1": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "imo_1987_p4": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "imo_1992_p1": {
+    "status": "no changes",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_algebra_109": {
+    "status": "no changes",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_algebra_129": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_184": {
+    "status": "no changes",
+    "modified": false,
+    "proof": false
+  },
+  "mathd_algebra_388": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "mathd_algebra_440": {
+    "status": "no changes",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_algebra_96": {
+    "status": "no changes",
+    "modified": false,
+    "proof": true
+  },
+  "mathd_numbertheory_12": {
+    "status": "no changes",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_numbertheory_239": {
+    "status": "no changes",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_numbertheory_303": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_numbertheory_314": {
+    "status": "reformulation",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_numbertheory_451": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "mathd_numbertheory_551": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": true
+  },
+  "mathd_numbertheory_629": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  },
+  "numbertheory_nckeqnm1ckpnm1ckm1": {
+    "status": "syntax improvement",
+    "modified": true,
+    "proof": false
+  }
+}

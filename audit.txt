@@ -149,3 +149,11 @@ mathd_numbertheory_690
 mathd_numbertheory_85
 numbertheory_nckeqnm1ckpnm1ckm1
 numbertheory_x5neqy2p4
+
+Statistics:
+Theorems that required no changes: 115
+Theorems that required some syntax improvements: 26
+Theorems that required a reformulation: 6
+Theorems that were wrong: 3
+Modified theorems: 44
+Proofs of theorems: 28
