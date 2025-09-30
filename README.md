@@ -26,18 +26,6 @@ MiniF2F-rocq is designed as a shared and valuable resource for the machine learn
 
 However, MiniF2F-rocq greatly benefits from contributions, whether by improving existing statements, adding new proofs, or fixing bugs. If you discover insights that could be useful to the community, please consider contributing them back to help refine and expand the benchmark.
 
-## Download
-
-To use the dataset, we recommend downloading it from HuggingFace 🤗 where the files are broken down into the Rocq statement and a header (the imports and auxiliary definitions), and where corresponding informal statement and proof are available.
-
-You can see the dataset at https://huggingface.co/datasets/LLM4Rocq/miniF2F-rocq and it can be downloaded as follow:
-
-```python
-import datasets
-
-miniF2F = datasets.load_dataset("LLM4Rocq/miniF2F-rocq")
-```
-
 ## Example problem statement (mathd_algebra_478)
 
 ### Informal description
@@ -74,14 +62,7 @@ Progress of the audit so far:
 
 We extend our heartfelt thanks to all contributors who helped audit and refine the theorem statements.
 Their expertise and insights have been invaluable to this project.
-Special thanks to
-Pierre Boutillier,
-Cyril Cohen,
-Hugo Férée,
-Hugo Herbelin,
-Pierre Letouzey and
-Julien Narboux
-for their dedicated efforts.
+Special thanks to all the reviewers for their dedicated efforts.
 
 
 ## Automatic translation
@@ -96,4 +77,3 @@ At each stage, we perform multiple rounds of translation using increasingly adva
 We successfully translated 478 out of 488 theorems, and manually translated the last theorems.
 
 The agent used for the translation task is in the [translator](./translator/) directory.
-More details can be found in [this abstract](./minif2f2rocq.pdf)
