@@ -1,9 +1,8 @@
-Require Import Nat.
 Require Import ZArith.
-Open Scope nat_scope.
+Open Scope Z_scope.
 
 Theorem mathd_numbertheory_780 :
-  forall m x : nat,
+  forall m x : Z,
     10 <= m ->
     m <= 99 ->
     (6 * x) mod m = 1 ->

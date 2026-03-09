@@ -13,7 +13,8 @@ Theorem mathd_numbertheory_552 :
     
     exists l : list nat,
       NoDup l /\
-      (forall y, In y l <-> exists x, h x = y) /\
+      (forall y, In y l <-> exists x, x > 0 /\ h x = y) /\
       List.fold_left Nat.add l 0 = 12.
 
 Proof.
+Admitted.
