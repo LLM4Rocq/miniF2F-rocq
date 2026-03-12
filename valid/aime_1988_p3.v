@@ -7,7 +7,7 @@ Definition logb (a x : R) : R := ln x / ln a.
 
 Theorem aime_1988_p3 :
   forall (x : R),
-    0 < x ->
+    1 < x ->
     logb 2 (logb 8 x) = logb 8 (logb 2 x) ->
     (logb 2 x)^2 = 27.
 
