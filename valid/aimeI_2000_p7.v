@@ -11,6 +11,7 @@ Theorem aimeI_2000_p7:
     y + /x = 29 ->
     z + /y = Q2R m ->
     Qgt m 0 ->
+    Qred m = m ->
     (Zpos (Qden m) + Qnum m)%Z = 5%Z.
 
 Proof.
