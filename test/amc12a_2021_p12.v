@@ -1,15 +1,17 @@
-Require Import Reals.
-Require Import Coquelicot.Coquelicot.
+From mathcomp Require Import all_ssreflect all_algebra.
+Import GRing.Theory Num.Theory.
+Open Scope ring_scope.
+Set Implicit Arguments.
+Unset Strict Implicit.
 
-Open Scope R_scope.
-Open Scope C_scope.
+Definition amc_poly {F : nzRingType} (a b c d : F) : {poly F} :=
+  'X^6 - 10%:R *: 'X^5 + a *: 'X^4 + b *: 'X^3 + c *: 'X^2 + d *: 'X + 16%:R%:P.
 
-Theorem amc12a_2021_p12 
-  (a b c d : R)
-  (f : C -> C)
-  (h0 : forall z, f z = z^6 - 10 * z^5 + a * z^4 + b * z^3 + c * z^2 + d * z + 16)
-  (h1 : forall z, f z = 0 -> 
-        Im z = 0 /\ (0 < Re z)%R /\ IZR (floor (Re z)) = Re z) :
-  b = -88.
+Definition is_pos_int {F : nzRingType} (x : F) : Prop :=
+  exists n : nat, (n > 0)%N /\ x = n%:R.
 
+Theorem amc12a_2021_p12 (F : numClosedFieldType) (a b c d : F)
+  (h1 : forall x : F, root (amc_poly a b c d) x -> is_pos_int x) :
+  b = -(88%:R).
 Proof.
+Admitted.
