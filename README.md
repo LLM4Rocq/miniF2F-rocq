@@ -96,4 +96,4 @@ At each stage, we perform multiple rounds of translation using increasingly adva
 We successfully translated 478 out of 488 theorems, and manually translated the last theorems.
 
 The agent used for the translation task is in the [translator](./translator/) directory.
-More details can be found in [this abstract](./minif2f2rocq.pdf)
+More details can be found in [this abstract](https://arxiv.org/abs/2503.04763)
