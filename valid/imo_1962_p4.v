@@ -10,8 +10,8 @@ Theorem imo_1962_p4 :
       \/
       (exists m : Z, x = PI / 4 + IZR m * (PI / 2))
       \/
-      (exists m : Z, x = PI / 6 + IZR m * (PI / 6))
+      (exists m : Z, x = PI / 6 + IZR m * (PI / 3))
       \/
-      (exists m : Z, x = 5*PI / 6 + IZR m * (PI / 6)).
+      (exists m : Z, x = 5*PI / 6 + IZR m * (PI / 3)).
 
 Proof.

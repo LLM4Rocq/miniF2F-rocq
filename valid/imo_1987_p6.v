@@ -6,9 +6,11 @@ Require Import Lia.
 
 Open Scope nat_scope.
 
+Definition f (p k : nat) : nat := k ^ 2 + k + p.
+
 Theorem imo_1987_p6 :
-  forall (n : nat), 2 <= n ->
-  (forall k, (2 <= INR k <= sqrt (INR n / 3))%R ->
-    prime (Z.of_nat (k ^ 2 + k + n))) ->
-  forall k, k <= n - 2 -> prime (Z.of_nat (k ^ 2 + k + n)).
+  forall (p : nat), 2 <= p ->
+  (forall k, (INR k <= sqrt (INR p / 3))%R ->
+    prime (Z.of_nat (f p k))) ->
+  forall k, k <= p - 2 -> prime (Z.of_nat (f p k)).
 Proof.
